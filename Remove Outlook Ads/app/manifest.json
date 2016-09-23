@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "Remove Outlook Ads",
+    "version": "1.0",
+    "description": "This extension remove ads from outlook email inbox.",
+    "icons": {
+        "48": "img/icon48.png",
+        "96": "img/icon96.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "48": "img/icon48.png",
+            "96": "img/icon96.png",
+            "16": "img/icon.png"
+        },
+        "default_title": "Remove Outlook Ads"
+    },
+    "background": {
+        "scripts": [ "removeads.js" ]
+    }
+}

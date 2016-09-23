@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+
+    "name": "Auto Set Project Status",
+    "description": "This extension auto set project status for Dotsquares EMS.",
+    "version": "1.0",
+    "icons": {
+        "48": "img/icon48.png",
+        "96": "img/icon96.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "options_ui": {
+        "page": "html/options.html"
+    },
+    "applications": {
+        "gecko": {
+            "id": "rohit.kumar1@dotsquares.com"
+        }
+    },
+    "browser_action": {
+        "default_icon": {
+            "48": "img/icon48.png",
+            "96": "img/icon96.png",
+            "16": "img/icon.png"
+        },
+        "default_title": "Set Project Status",
+        "default_popup": "html/setprojectstatuspopup.html"
+    }
+}
