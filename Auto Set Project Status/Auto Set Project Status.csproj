@@ -45,16 +45,15 @@
     <Content Include="app\jquery_1.8.3.min.js" />
     <Content Include="app\html\options.html" />
     <Content Include="app\options.js" />
-    <Content Include="Properties\build\lib\Ionic.Zip.DLL" />
-    <Content Include="Properties\build\lib\MSBuild.ExtensionPack.dll" />
     <Content Include="index.htm" />
     <Content Include="DebugSettings.template.xml" />
-    <Content Include="Properties\build\ligershark.chrome.targets" />
     <Content Include="app\manifest.json" />
     <None Include="scripts\_references.js" />
     <None Include="scripts\chrome-api-vsdoc.js" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
